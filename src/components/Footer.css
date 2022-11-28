@@ -1,0 +1,18 @@
+.footer{
+    background-color: black;
+    padding: 150px;
+    color: white;
+    text-align: center;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}

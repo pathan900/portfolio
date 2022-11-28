@@ -1,0 +1,29 @@
+.header_area {
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: background 0.4s, all 0.3s linear;
+    
+}
+.header_area .navbar {
+    background: #f9f9ff;
+    padding: 0px;
+    border: 2px solid;
+    border-radius: 0px;
+}
+.header_area .navbar .nav .nav-item .nav-link {
+    font: 600 12px/100px "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #222222;
+    padding: 0px;
+    display: inline-block;
+    margin-right: 45px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
